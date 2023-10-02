@@ -16,7 +16,7 @@ function Pocetna() {
   return (
     <div className="pocetna-container">
       <h1>Dobrodošli na Početnu stranicu</h1>
-      <p>Globalna varijabla: {state.globalVariable}</p>
+    
       <button className="kreiraj-anketu-button" onClick={handleKreirajAnketuClick}>
         Kreiraj novu anketu
       </button>
